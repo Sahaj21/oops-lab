@@ -29,10 +29,10 @@ int main()
 	for(int i=0;i<n;i++)
 	{    
 	
-	sum=0;
+	Sum = 0;
 		for(int j=0;j<n;j++)
 		{
-		sum=sum+a[i][j]*b[j][i]	;
+		Sum = Sum+a[i][j]*b[j][i]	;
 		}
 		c[p][i]=sum;
 	}

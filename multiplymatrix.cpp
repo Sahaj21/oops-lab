@@ -8,7 +8,7 @@ int main()
 	cin>>n;
 	
 	int a[n][n]	, b[n][n],c[n][n],sum=0;
-	
+	cout<<"Enter value in matrix 1";
 	for(int i=0;i<n;i++)
 	{
 		for(int j=0;j<n;j++)
@@ -17,6 +17,7 @@ int main()
 		}
 	}
 	cout<<"\n";
+ cout<<"Enter value in matrix 2";
 	for(int i=0;i<n;i++){
 		for(int j=0;j<n;j++)
 		{
